@@ -56,7 +56,8 @@
   },
   "homepage": "https://github.com/jkrmarmol/react-native-otp-input#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.6.0",
@@ -79,6 +80,7 @@
     "react": "19.0.0",
     "react-native": "0.79.2",
     "react-native-builder-bob": "^0.40.8",
+    "react-test-renderer": "19.0.0",
     "release-it": "^17.10.0",
     "typescript": "^5.8.3"
   },
@@ -150,5 +152,8 @@
     "languages": "js",
     "type": "library",
     "version": "0.50.3"
+  },
+  "dependencies": {
+    "@testing-library/react-native": "^13.2.0"
   }
 }

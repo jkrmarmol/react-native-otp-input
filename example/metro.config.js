@@ -16,5 +16,12 @@ const config = withMetroConfig(getDefaultConfig(__dirname), {
 });
 
 config.resolver.unstable_enablePackageExports = true;
+config.watchFolders = [__dirname, root];
+config.resolver.nodeModulesPaths = [
+  path.resolve(__dirname, 'node_modules'),
+  path.resolve(__dirname, '../node_modules'),
+  path.resolve(root, 'node_modules'),
+];
+config.resolver.disableHierarchicalLookup = true;
 
 module.exports = config;

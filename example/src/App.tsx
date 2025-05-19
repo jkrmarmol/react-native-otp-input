@@ -1,12 +1,10 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from '@jkrmarmol/react-native-otp-input';
-
-const result = multiply(3, 7);
+import { View, StyleSheet } from 'react-native';
+import { OTPInput } from '@jkrmarmol/react-native-otp-input';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <OTPInput length={6} onChangeOTP={(otp) => console.log(otp)} />
     </View>
   );
 }
@@ -14,7 +12,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
   },
 });
