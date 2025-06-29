@@ -34,7 +34,7 @@ yarn add @jkrmarmol/react-native-otp-input
 
 ```js
 import { View, StyleSheet } from 'react-native';
-import { OTPInput } from '@jkrmarmol/react-native-otp-input';
+import OTPInput from '@jkrmarmol/react-native-otp-input';
 
 export default function App() {
   return (
