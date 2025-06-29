@@ -1,6 +1,6 @@
 {
   "name": "@jkrmarmol/react-native-otp-input",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "React Native OTP Input is a lightweight, customizable, and fully typed OTP (One-Time Password) input component built for modern React Native applications.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
