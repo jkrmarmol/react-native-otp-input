@@ -79,7 +79,7 @@
     "jest": "^30.0.0",
     "prettier": "^3.0.3",
     "react": "19.0.0",
-    "react-native": "0.80.2",
+    "react-native": "0.81.4",
     "react-native-builder-bob": "^0.40.8",
     "react-test-renderer": "19.2.0",
     "release-it": "^19.0.3",
