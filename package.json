@@ -81,7 +81,7 @@
     "react": "19.0.0",
     "react-native": "0.80.2",
     "react-native-builder-bob": "^0.40.8",
-    "react-test-renderer": "19.0.0",
+    "react-test-renderer": "19.2.0",
     "release-it": "^19.0.3",
     "typescript": "^5.8.3"
   },
